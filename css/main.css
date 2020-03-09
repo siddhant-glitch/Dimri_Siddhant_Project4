@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+#container{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+}
+
+.hidden{
+	display: none;
+}
+
+.firstcolumn{
+	width: 100vh;
+	height: 800px;
+	background-color: pink;
+
+}
+
+.fourthcolumn{
+	width: 100vh;
+	height: 800px;
+	background-color: red;
+}
+
+@media only screen and (min-width: 641px){
+	
+	#container{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+	}
+	.secondcolumn{
+		width: 25%;
+		height: 1000px;
+		background-color: purple;
+	}
+	.thirdcolumn{
+		width: 25%;
+		height: 1000px;
+		background-color: grey;
+	}
+	.firstcolumn{
+		width: 25%;
+		height: 1000px;
+		background-color: blue;
+	}
+	.fourthcolumn{
+		width: 25%;
+		height: 1000px;
+		background-color: brown;
+	}
+}
